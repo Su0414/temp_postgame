@@ -42,7 +42,7 @@ class Scraper
             :story_link => story.css("span").text
           }
       end
-      puts stories_args
+      # puts stories_args
     stories_args
   end 
   
