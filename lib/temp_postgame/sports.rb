@@ -3,13 +3,13 @@ class Sports
   
   @@all = []
   
-  attr_accessor :name, :sport_url, :title, :description, :link ,:stories
+  attr_accessor :name, :sport_url, :title, :description, :link 
   
   
   def initialize(args)
     @name = args[:name]
     @sport_url = args[:sport_url]
-    @stories = Array.new
+    
     @@all << self 
   end 
   
