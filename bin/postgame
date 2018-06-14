@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+puts "Hello world"
+
+require './lib/temp_postgame'
+
+TempPostgame::CLI.new.call
